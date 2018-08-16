@@ -14,6 +14,7 @@
 		BA096077212581BF00900AF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA096075212581BF00900AF1 /* LaunchScreen.storyboard */; };
 		BA09607F212581E500900AF1 /* DemoLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA09607E212581E500900AF1 /* DemoLabel.swift */; };
 		BA096081212581EE00900AF1 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA096080212581EE00900AF1 /* Person.swift */; };
+		BA0960832125A05500900AF1 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0960822125A05500900AF1 /* Bundle+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		BA096078212581BF00900AF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA09607E212581E500900AF1 /* DemoLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoLabel.swift; sourceTree = "<group>"; };
 		BA096080212581EE00900AF1 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		BA0960822125A05500900AF1 /* Bundle+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
+		BA0960852125A30300900AF1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +47,7 @@
 			children = (
 				BA09606B212581BE00900AF1 /* didSetuse */,
 				BA09606A212581BE00900AF1 /* Products */,
+				BA0960842125A30300900AF1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +64,7 @@
 			children = (
 				BA09606C212581BE00900AF1 /* AppDelegate.swift */,
 				BA09606E212581BE00900AF1 /* ViewController.swift */,
+				BA0960822125A05500900AF1 /* Bundle+Extension.swift */,
 				BA096080212581EE00900AF1 /* Person.swift */,
 				BA09607E212581E500900AF1 /* DemoLabel.swift */,
 				BA096070212581BE00900AF1 /* Main.storyboard */,
@@ -68,6 +73,14 @@
 				BA096078212581BF00900AF1 /* Info.plist */,
 			);
 			path = didSetuse;
+			sourceTree = "<group>";
+		};
+		BA0960842125A30300900AF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA0960852125A30300900AF1 /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA09606F212581BE00900AF1 /* ViewController.swift in Sources */,
+				BA0960832125A05500900AF1 /* Bundle+Extension.swift in Sources */,
 				BA09606D212581BE00900AF1 /* AppDelegate.swift in Sources */,
 				BA096081212581EE00900AF1 /* Person.swift in Sources */,
 				BA09607F212581E500900AF1 /* DemoLabel.swift in Sources */,
