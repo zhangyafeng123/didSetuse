@@ -21,8 +21,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         window?.backgroundColor = UIColor.white
         
+        //输出 info.plist 的内容
+        let ns = Bundle.main.infoDictionary?["CFBundleName"] as? String ?? ""
+        
+        let clsName = ns + "." + "ViewController"
+        
         //2.设置 根控制器，需要添加命名空间 -> 默认就是 `项目名称`（最好不要有字符和特殊符号）
-        let clsName = "didSetuse.ViewController"
+        //let clsName = "didSetuse.ViewController"
         
         let cls = NSClassFromString(clsName) as? UIViewController.Type
         
